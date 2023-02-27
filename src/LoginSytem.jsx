@@ -17,7 +17,6 @@ function LoginSytem() {
     ) {
       // setting value of email and password in  local storage..
       localStorage.setItem("EmailData", "test@email.com");
-      localStorage.setItem("EmailData", "test@email.com");
       localStorage.setItem("PasswordData", "123456");
       navigate("/Home");
     } else {
@@ -33,7 +32,7 @@ function LoginSytem() {
         <>
           {" "}
           <div className="loginContainer">
-            <h1 style={{color:"gray"}}>Email : <span style={{color:"black"}}>test@gmail.com</span> <br /> password : <span style={{color:"black"}}>123456</span></h1>
+            <h1 style={{color:"gray"}}>Email : <span style={{color:"black"}}>test@gmail.com</span> password : <span style={{color:"black"}} >123456</span></h1>
             <form
               onSubmit={handleSubmit}
               style={{
